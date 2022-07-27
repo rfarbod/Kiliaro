@@ -24,16 +24,21 @@ PODS:
     - JamitFoundation/Core
   - JamitFoundation/WeakCache (1.4.2):
     - JamitFoundation/Core
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
   - Swinject (2.8.1)
 
 DEPENDENCIES:
   - Alamofire
   - JamitFoundation (from `https://github.com/JamitLabs/JamitFoundation.git`, tag `1.5.2`)
+  - SDWebImage (~> 5.0)
   - Swinject
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - SDWebImage
     - Swinject
 
 EXTERNAL SOURCES:
@@ -49,8 +54,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   JamitFoundation: 7e0d9b5d06fce6c12f3dc8065515ea1df33d66cc
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
   Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
 
-PODFILE CHECKSUM: 9284ab05c193e7bb37fa7125a7c0446f88f3d4af
+PODFILE CHECKSUM: fc3525b661bb4cdacd2b84c9d8748cf5a9d7bc60
 
 COCOAPODS: 1.11.3

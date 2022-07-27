@@ -10,6 +10,7 @@ target 'KiliaroTest' do
   pod 'JamitFoundation', :git => 'https://github.com/JamitLabs/JamitFoundation.git', :tag => '1.5.2', :inhibit_warnings => true
   pod 'Alamofire'
   pod 'Swinject'
+  pod 'SDWebImage', '~> 5.0'
 
   target 'KiliaroTestTests' do
     inherit! :search_paths
