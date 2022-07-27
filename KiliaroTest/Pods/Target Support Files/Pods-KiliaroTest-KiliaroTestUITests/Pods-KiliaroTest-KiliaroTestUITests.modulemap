@@ -1,0 +1,6 @@
+framework module Pods_KiliaroTest_KiliaroTestUITests {
+  umbrella header "Pods-KiliaroTest-KiliaroTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

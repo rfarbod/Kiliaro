@@ -1,0 +1,90 @@
+{
+  "name": "JamitFoundation",
+  "version": "1.4.2",
+  "summary": "JamitFoundation is a collection of useful concepts to enable composition oriented development with UIKit.",
+  "homepage": "https://github.com/JamitLabs/JamitFoundation",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Jamit Labs GmbH": "mail@jamitlabs.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/JamitLabs/JamitFoundation.git",
+    "tag": "1.4.2"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/**/*.{h,m,swift}"
+    },
+    {
+      "name": "BarcodeScanner",
+      "dependencies": {
+        "JamitFoundation/Core": [
+
+        ]
+      },
+      "source_files": "Modules/BarcodeScanner"
+    },
+    {
+      "name": "CarouselView",
+      "dependencies": {
+        "JamitFoundation/Core": [
+
+        ]
+      },
+      "source_files": "Modules/CarouselView"
+    },
+    {
+      "name": "GridView",
+      "dependencies": {
+        "JamitFoundation/Core": [
+
+        ]
+      },
+      "source_files": "Modules/GridView"
+    },
+    {
+      "name": "PageView",
+      "dependencies": {
+        "JamitFoundation/Core": [
+
+        ]
+      },
+      "source_files": "Modules/PageView"
+    },
+    {
+      "name": "TimePickerView",
+      "dependencies": {
+        "JamitFoundation/Core": [
+
+        ]
+      },
+      "source_files": "Modules/TimePickerView"
+    },
+    {
+      "name": "WeakCache",
+      "dependencies": {
+        "JamitFoundation/Core": [
+
+        ]
+      },
+      "source_files": "Modules/WeakCache"
+    },
+    {
+      "name": "MessageView",
+      "dependencies": {
+        "JamitFoundation/Core": [
+
+        ]
+      },
+      "source_files": "Modules/MessageView"
+    }
+  ],
+  "swift_version": "5.0"
+}

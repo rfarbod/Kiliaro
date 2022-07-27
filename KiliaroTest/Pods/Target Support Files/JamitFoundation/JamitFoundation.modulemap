@@ -1,0 +1,6 @@
+framework module JamitFoundation {
+  umbrella header "JamitFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
